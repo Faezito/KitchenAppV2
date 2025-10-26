@@ -1,0 +1,24 @@
+﻿@model UsuarioModel
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Home/_Layout.cshtml";
+
+}
+<div class="row d-flex justify-content-end">
+    <aside class="col-7 mx-auto mx-sm-1 col-sm-6 col-md-5 col-lg-4 col-xl-4 col-xxl-3 py-5">
+        <div class="light-transparent-20 card">
+            <div class="card-body px-3 py-4">
+                <div class="text-center">
+                    <h2 class="display-4 mb-5 text-light">Minha Cozinha</h2>
+
+                    <form class="form d-grid gap-3" method="post">
+                        <input asp-for="Email" type="email" class="form-control" placeholder="E-mail" />
+                        <input asp-for="Senha" type="password" class="form-control" placeholder="Senha" />
+
+                        <button class="btn btn-primary">ACESSAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>

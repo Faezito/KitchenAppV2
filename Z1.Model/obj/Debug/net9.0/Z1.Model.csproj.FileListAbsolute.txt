@@ -1,0 +1,11 @@
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\bin\Debug\net9.0\Z1.Model.deps.json
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\bin\Debug\net9.0\Z1.Model.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\bin\Debug\net9.0\Z1.Model.pdb
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\Z1.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\Z1.Model.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\Z1.Model.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\Z1.Model.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\Z1.Model.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\refint\Z1.Model.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\Z1.Model.pdb
+C:\Users\Matheus\source\repos\KitchenApp\Z1.Model\obj\Debug\net9.0\ref\Z1.Model.dll

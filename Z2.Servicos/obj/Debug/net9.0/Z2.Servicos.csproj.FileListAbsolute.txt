@@ -1,0 +1,17 @@
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z2.Servicos.deps.json
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z2.Servicos.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z2.Servicos.pdb
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z1.Model.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z3.DataAccess.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z1.Model.pdb
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\bin\Debug\net9.0\Z3.DataAccess.pdb
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servi.9D499F41.Up2Date
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\refint\Z2.Servicos.dll
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\Z2.Servicos.pdb
+C:\Users\Matheus\source\repos\KitchenApp\Z2.Servicos\obj\Debug\net9.0\ref\Z2.Servicos.dll

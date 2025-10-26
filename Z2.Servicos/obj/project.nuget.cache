@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fLRRqVj6h58=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\Z2.Servicos\\Z2.Servicos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+  ],
+  "logs": []
+}
