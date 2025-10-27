@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p9o8yuMFPRk=",
+  "dgSpecHash": "K1IY0l9pFOs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj",
+  "projectFilePath": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matheus.fae\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+    "C:\\Users\\Matheus\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
   ],
   "logs": []
 }

@@ -69,7 +69,8 @@ WHERE ProdutoID = @ProdutoID
         public async Task Deletar(int? ProdutoID)
         {
             string sql = @"
-DELETE FROM KitchenApp.dbo.Produtos
+UPDATE KitchenApp.dbo.Produtos
+SET DELETADO = 1
 WHERE ProdutoID = @ProdutoID
 ";
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: ProdutoID);

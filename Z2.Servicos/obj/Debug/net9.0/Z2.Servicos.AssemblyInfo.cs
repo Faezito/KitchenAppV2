@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Z2.Servicos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e2c557318da1ac4a788831215d4ed69f7f49bb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfe692775a7b857d40a207a3f942027ef87355c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Z2.Servicos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Z2.Servicos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
