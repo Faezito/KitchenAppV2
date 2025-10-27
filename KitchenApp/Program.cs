@@ -20,6 +20,10 @@ builder.Services.AddScoped<IDapper, DapperDatabase>(x =>
 
 builder.Services.AddScoped<IUsuarioDataAccess, UsuarioDataAccess>();
 builder.Services.AddScoped<IUsuarioServicos, UsuarioServicos>();
+builder.Services.AddScoped<IProdutoDataAccess, ProdutoDataAccess>();
+builder.Services.AddScoped<IProdutoServicos, ProdutoServicos>();
+//builder.Services.AddScoped<IIngredienteServicos, IngredienteServicos>();
+builder.Services.AddScoped<IIngredienteDataAccess, IngredienteDataAccess>();
 
 // Cookies
 

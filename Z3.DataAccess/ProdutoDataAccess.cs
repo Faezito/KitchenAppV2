@@ -32,7 +32,7 @@ namespace Z3.DataAccess
         {
             string sql = @"
 INSERT INTO KitchenApp.dbo.Produtos (
-Titulo
+Nome
 ,Custo
 ,Preco
 ,Categoria
@@ -40,7 +40,7 @@ Titulo
 ,UsuarioID
 )
 VALUES (
-@Titulo,
+@Nome,
 @Custo,
 @Preco,
 @Categoria,
@@ -55,7 +55,7 @@ VALUES (
         {
             string sql = @"
 UPDATE KitchenApp.dbo.Produtos
-SET Titulo = COALESCE(@Titulo, Titulo),
+SET Nome = COALESCE(@Nome, Nome),
 Custo = COALESCE(@Custo, Custo),
 Preco = COALESCE(@Preco, Preco),
 Ativo = COALESCE(@Ativo, Ativo),
@@ -79,17 +79,19 @@ WHERE ProdutoID = @ProdutoID
         {
             string sql = @"
 SELECT ProdutoID
-Titulo
+,Nome
 ,Custo
 ,Preco
 ,Categoria
 ,Ativo
 ,UsuarioID
 FROM KitchenApp.dbo.Produtos
-WHERE (@UsuarioID IS NULL OR UsuarioID = @UsuarioID)
+WHERE DELETADO = 0 
+AND (@UsuarioID IS NULL OR UsuarioID = @UsuarioID)
 AND (@ProdutoID IS NULL OR ProdutoID = @ProdutoID)
+
 ";
-            return await _dapper.QueryAsync<ProdutoModel>(sql: sql, commandType: System.Data.CommandType.Text, param: ProdutoID);
+            return await _dapper.QueryAsync<ProdutoModel>(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID, UsuarioID });
         }
 
 
