@@ -15,8 +15,10 @@
             <div class="card-body text-center">
                 <h5 class="card-title">@i.Nome</h5>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">R$ @i.Preco</li>
-                    <li class="list-group-item">R$ @i.Custo</li>
+                    <li class="list-group-item">
+                        R$ @string.Format("{0:n2}", i.Preco)
+                    </li>
+                    <li class="list-group-item">R$ @string.Format("{0:n2}", i.Custo)</li>
                     <li class="list-group-item">@i.Categoria</li>
                 </ul>
                 <div class="card-body">

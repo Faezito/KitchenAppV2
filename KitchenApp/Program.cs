@@ -1,3 +1,4 @@
+using DotNetEnv;
 using KitchenApp.Libraries.Login;
 using KitchenApp.Libraries.Sessao;
 using System.Data.Common;
@@ -6,6 +7,8 @@ using Z3.DataAccess;
 using Z3.DataAccess.Database;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Env.Load();
 
 builder.Services.AddControllersWithViews();
 
