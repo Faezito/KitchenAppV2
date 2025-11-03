@@ -404,12 +404,10 @@ C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Usuario\Shared\_LayoutUsuario.cshtml.rz.scp.css
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\bundle\KitchenApp.styles.css
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\projectbundle\KitchenApp.bundle.scp.css
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\r76nek1klv-pf9lt6rzvk.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\9hy7i5gwjq-61n19gt1b8.gz
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\zish0nufkr-xtxxf3hu2r.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\x5inff526k-bqjiyaj88i.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\62elfq7j2m-c2jlpeoesf.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\d82mia41ba-erw9l3u2r3.gz
@@ -469,8 +467,6 @@ C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\hfym8oz0hm-muycvpuwrr.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\1kcamz5mxe-87fc7y1x7t.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\8ouyidyfhz-mlv21k5csn.gz
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-rseuix43lk.gz
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-rseuix43lk.gz
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -645,3 +641,15 @@ C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scop
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Usuario\_LayoutUsuario.cshtml.rz.scp.css
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-64jluibg9t.gz
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-64jluibg9t.gz
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\DotNetEnv.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\GenerativeAI.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\Sprache.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Produto\_LayoutUsuario.cshtml.rz.scp.css
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Usuario\_LayoutUsuario.cshtml.rz.scp.css
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-64jluibg9t.gz
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-64jluibg9t.gz
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\zish0nufkr-teudtse8sd.gz
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\phu6htvgas-wi5p5xcnns.gz
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\9kwnm7fi6h-6g9cgyi5ef.gz

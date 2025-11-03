@@ -13,10 +13,10 @@ namespace Z2.Servicos
         Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID);
         Task<int?> Cadastrar(ProdutoModel model);
         Task Deletar(ProdutoModel model);
-        Task<ProdutoModel> Obter(int id);
+        Task<ProdutoModel> Obter(int id, int usuarioID);
 
         // RELAÇÃO PRODUTO x INGREDIENTES
-        Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds);
+        //Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds);
         Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID);
     }
 
@@ -27,23 +27,44 @@ namespace Z2.Servicos
 
         public ProdutoServicos(IProdutoDataAccess daProduto, IIngredienteDataAccess daIngrediente)
         {
-             _daProduto = daProduto;
-             _daIngrediente = daIngrediente; 
+            _daProduto = daProduto;
+            _daIngrediente = daIngrediente;
         }
 
-        public Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds)
+        //public async Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds)
+        //{
+        //    foreach (var i in ingredientesIds)
+        //    {
+        //        await _daProduto.InserirProdutoIngredientes(ProdutoID, i);
+        //    }
+        //}
+
+        public async Task<int?> Cadastrar(ProdutoModel model)
         {
-            throw new NotImplementedException();
+            foreach(var i in model.Ingredientes)
+            {
+                ProdutoIngredienteModel PImodel = new ProdutoIngredienteModel
+                {
+                    IngredienteID = i.IngredienteID.Value,
+                    ProdutoID = model.ProdutoID.Value,
+                    Quantidade = i.Quantidade
+                };
+                await _daProduto.InserirProdutoIngredientes(PImodel);
+            }
+
+
+            if (model.ProdutoID.HasValue)
+            {
+                await _daProduto.Atualizar(model);
+                return model.ProdutoID;
+            }
+            await _daProduto.Adicionar(model);
+            return model.ProdutoID;
         }
 
-        public Task<int?> Cadastrar(ProdutoModel model)
+        public async Task Deletar(ProdutoModel model)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task Deletar(ProdutoModel model)
-        {
-            throw new NotImplementedException();
+            await _daProduto.Deletar(model.ProdutoID.Value);
         }
 
         public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID)
@@ -57,9 +78,9 @@ namespace Z2.Servicos
             return lst;
         }
 
-        public async Task<ProdutoModel?> Obter(int id)
+        public async Task<ProdutoModel?> Obter(int id, int usuarioID)
         {
-            List<ProdutoModel> lst = await _daProduto.Listar(id, null);
+            List<ProdutoModel> lst = await _daProduto.Listar(id, usuarioID);
             return lst.FirstOrDefault();
         }
     }

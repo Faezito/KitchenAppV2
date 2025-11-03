@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Z3.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a75ef444ee60723ba32211c552d5fc65dff3a636")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d84ebcf3021d2c023ff5e76d6367e15b9e7f139a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Z3.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Z3.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

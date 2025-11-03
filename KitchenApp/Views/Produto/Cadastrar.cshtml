@@ -1,0 +1,100 @@
+﻿@model ProdutoModel;
+
+@{
+}
+<div id="categoriasTemplate" style="display: none;">
+    @await Component.InvokeAsync("DropIngredienteCategorias")
+</div>
+<div id="medidaTemplate" style="display: none;">
+    @await Component.InvokeAsync("DropUnidadesMedida")
+</div>
+<div id="ingredienteTemplates" style="display: none;">
+    @await Component.InvokeAsync("DropIngredientes")
+</div>
+
+
+<div class="row">
+    <div class="col-auto">
+        <form class="form d-grid gap-3" method="POST" asp-action="Cadastrar">
+            @Html.HiddenFor(x => x.ProdutoID)
+
+            <div class="row gap-4">
+                <input type="text" asp-for="Nome" class="col form-control" placeholder="Nome" />
+                <select class="col form-control" asp-for="Categoria">
+                    <option value="0" disabled>Categoria</option>
+                    @await Component.InvokeAsync("DropCategorias")
+                </select>
+            </div>
+            <div class="row gap-4">
+                <input type="text" asp-for="Custo" class="col form-control money" placeholder="Custo" />
+                <input type="text" asp-for="Preco" class="col form-control money" placeholder="Venda" />
+            </div>
+
+            <button id="addIngrediente" class="btn btn-primary mb-2">+</button>
+            <div class="row" id="ingredientesContainer">
+            </div>
+
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-mask/jquery.mask.js"></script>
+    <script>
+    $(document).ready(function() {
+        let ingredientesIndex = 0;
+
+        $("#addIngrediente").click(function(e) {
+            e.preventDefault();
+
+            var categoriasTemplate = $("#categoriasTemplate").html();
+            var medidaTemplate = $("#medidaTemplate").html();
+            var ingredienteTemplates = $("#ingredienteTemplates").html();
+            //TODO: Trocar input de ingrediente por drop dos ingredientes
+            var formHtml = `
+                <div class="col-12 d-flex mb-2 align-items-center">
+                    <select class="form-control me-2" name="ProdutoIngrediente[${ingredientesIndex}].IngredienteID">
+                        <option value="0" disabled>Ingrediente</option>
+                        ${ingredienteTemplates}
+                    </select>
+                    <input type="text" name="ProdutoIngrediente[${ingredientesIndex}].Quantidade" class="form-control me-2" placeholder="Quantidade" />
+<!--
+                    <input type="text" name="Ingredientes[${ingredientesIndex}].Custo" class="form-control me-2 money" placeholder="Custo" />
+                    <select class="form-control me-2" name="Ingredientes[${ingredientesIndex}].UnidadeMedida">
+                        <option value="0" disabled>Unidade de Medida</option>
+                        <option value="0" >Unidade</option>
+                        <option value="0" >Kg</option>
+                        <option value="0" >Grama</option>
+                        <option value="0" >Litro</option>
+                        <option value="0" >Ml</option>
+                    </select>
+                    <select class="form-control me-2" name="Ingredientes[${ingredientesIndex}].UnidadeMedida">
+                        <option value="0" disabled>Unidade de Medida</option>
+                        ${medidaTemplate}
+                    </select>
+                    <select class="form-control me-2" name="Ingredientes[${ingredientesIndex}].CategoriaIngrediente">
+                        <option value="0" disabled>Categoria</option>
+                        ${categoriasTemplate}
+                    </select>
+-->
+
+
+                    <button type="button" class="btn btn-danger btn-sm removeIngrediente">X</button>
+                </div>
+            `;
+            // TODO DROP UNIDADES MEDIDA
+            $("#ingredientesContainer").append(formHtml);
+        });
+
+        // remover ingrediente
+        $("#ingredientesContainer").on("click", ".removeIngrediente", function() {
+            $(this).parent().remove();
+        });
+        $('.date').mask('00/00/0000');
+        $('.money').mask('000.000.000.000.000,00', { reverse: true });
+    });
+
+                
+    </script>
+}

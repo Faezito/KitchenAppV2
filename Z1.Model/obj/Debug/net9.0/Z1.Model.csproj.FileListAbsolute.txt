@@ -45,3 +45,4 @@ C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Mod
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\refint\Z1.Model.dll
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Model.pdb
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\ref\Z1.Model.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Model.csproj.AssemblyReference.cache

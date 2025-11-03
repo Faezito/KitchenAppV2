@@ -8,7 +8,7 @@ namespace Z1.Model
 {
     public class IngredienteModel
     {
-        public int IngredienteID { get; set; }
+        public int? IngredienteID { get; set; }
         public string Nome { get; set; }
         public string CategoriaIngrediente { get; set; }
         public decimal Quantidade { get; set; }

@@ -15,8 +15,9 @@ namespace Z3.DataAccess
         Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID);
         Task<int?> Adicionar(ProdutoModel model);
         Task Atualizar(ProdutoModel model);
-        Task Deletar(int? ProdutoID);
-
+        Task Deletar(int ProdutoID);
+        Task InserirProdutoIngredientes(ProdutoIngredienteModel model);
+        Task<List<CategoriasModel>> ListarCategorias();
     }
 
     public class ProdutoDataAccess : IProdutoDataAccess
@@ -44,7 +45,8 @@ VALUES (
 @Custo,
 @Preco,
 @Categoria,
-@Ativo
+@Ativo,
+@UsuarioID
 )
  SELECT SCOPE_IDENTITY()
 ";
@@ -59,21 +61,20 @@ SET Nome = COALESCE(@Nome, Nome),
 Custo = COALESCE(@Custo, Custo),
 Preco = COALESCE(@Preco, Preco),
 Ativo = COALESCE(@Ativo, Ativo),
-Categoria = COALESCE(@Categoria, Categoria),
-Ativo = COALESCE(@Ativo, Ativo)
+Categoria = COALESCE(@Categoria, Categoria)
 WHERE ProdutoID = @ProdutoID
 ";
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
         }
 
-        public async Task Deletar(int? ProdutoID)
+        public async Task Deletar(int ProdutoID)
         {
             string sql = @"
 UPDATE KitchenApp.dbo.Produtos
 SET DELETADO = 1
 WHERE ProdutoID = @ProdutoID
 ";
-            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: ProdutoID);
+            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID });
         }
 
         public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID)
@@ -88,7 +89,7 @@ SELECT ProdutoID
 ,UsuarioID
 FROM KitchenApp.dbo.Produtos
 WHERE DELETADO = 0 
-AND (@UsuarioID IS NULL OR UsuarioID = @UsuarioID)
+AND UsuarioID = @UsuarioID
 AND (@ProdutoID IS NULL OR ProdutoID = @ProdutoID)
 
 ";
@@ -98,11 +99,35 @@ AND (@ProdutoID IS NULL OR ProdutoID = @ProdutoID)
 
         public async Task InserirProdutoIngredientes(ProdutoIngredienteModel model)
         {
-            string sql = @"
+            try
+            {
+                string sql = @"
         INSERT INTO KitchenApp.dbo.ProdutoIngredientes (ProdutoID, IngredienteID, Quantidade)
         VALUES (@ProdutoID, @IngredienteID, @Quantidade);";
-
-            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
+                await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
+
+        public async Task<List<CategoriasModel>> ListarCategorias()
+        {
+            try
+            {
+                string sql = @"
+SELECT CategoriaID
+      ,Categoria
+  FROM KitchenApp.dbo.Categorias
+";
+                return await _dapper.QueryAsync<CategoriasModel>(sql: sql, commandType: System.Data.CommandType.Text, param: null);
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
+}

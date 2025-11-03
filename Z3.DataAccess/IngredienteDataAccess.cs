@@ -17,6 +17,7 @@ namespace Z3.DataAccess
         Task Atualizar(IngredienteModel model);
         Task Deletar(int? IngredienteID);
         Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID);
+        Task<List<CategoriasModel>> ListarCategorias();
 
     }
 
@@ -68,10 +69,11 @@ WHERE IngredienteID = @IngredienteID
         public async Task Deletar(int? IngredienteID)
         {
             string sql = @"
-DELETE FROM KitchenApp.dbo.Ingredientes
+UPDATE KitchenApp.dbo.Ingredientes
+SET DELETADO = 1
 WHERE IngredienteID = @IngredienteID
 ";
-            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: IngredienteID);
+            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { IngredienteID });
         }
 
         public async Task<List<IngredienteModel>> Listar(int? IngredienteID)
@@ -86,7 +88,25 @@ SELECT IngredienteID
 FROM KitchenApp.dbo.Ingredientes
 WHERE (@IngredienteID IS NULL OR IngredienteID = @IngredienteID)
 ";
-            return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: IngredienteID);
+            return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: new { IngredienteID });
+        }
+
+        public async Task<List<CategoriasModel>> ListarCategorias()
+        {
+            try
+            {
+                string sql = @"
+SELECT CategoriaID
+      ,Categoria
+  FROM KitchenApp.dbo.IngredienteCategorias
+";
+            return await _dapper.QueryAsync<CategoriasModel>(sql: sql, commandType: System.Data.CommandType.Text, param: null);
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         public async Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID)
@@ -94,7 +114,7 @@ WHERE (@IngredienteID IS NULL OR IngredienteID = @IngredienteID)
             string sql = @"
 SELECT 
 P.ProdutoID,
-P.Titulo,
+P.Nome,
 P.Custo,
 P.Preco,
 I.Nome,
@@ -106,7 +126,7 @@ LEFT JOIN KitchenApp.dbo.ProdutoIngredientes PrIn ON P.ProdutoID = PrIn.ProdutoI
 LEFT JOIN KitchenApp.dbo.Ingredientes I ON PrIn.ProdutoID = I.IngredienteID
 WHERE PrIn.ProdutoID = @ProdutoID
 ";
-            return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: ProdutoID);
+            return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID });
 
         }
     }
