@@ -45,7 +45,7 @@ namespace Z2.Servicos
             {
                 ProdutoIngredienteModel PImodel = new ProdutoIngredienteModel
                 {
-                    IngredienteID = i.IngredienteID.Value,
+                    IngredienteID = i.IngredienteID,
                     ProdutoID = model.ProdutoID.Value,
                     Quantidade = i.Quantidade
                 };
