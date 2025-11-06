@@ -12,7 +12,7 @@ namespace Z3.DataAccess
 {
     public interface IProdutoDataAccess
     {
-        Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID);
+        Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID);
         Task<int?> Adicionar(ProdutoModel model);
         Task Atualizar(ProdutoModel model);
         Task Deletar(int ProdutoID);
@@ -77,7 +77,7 @@ WHERE ProdutoID = @ProdutoID
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID });
         }
 
-        public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID)
+        public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID)
         {
             string sql = @"
 SELECT ProdutoID

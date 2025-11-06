@@ -10,10 +10,10 @@ namespace Z2.Servicos
 {
     public interface IIngredienteServicos
     {
-        Task<List<IngredienteModel>> Listar(int? IngredienteID);
-        Task<IngredienteModel> Obter(int IngredienteID);
+        Task<List<IngredienteModel>> Listar(int? IngredienteID, int usuarioID);
+        Task<IngredienteModel> Obter(int IngredienteID, int usuarioID);
         Task<int?> Cadastro(IngredienteModel model);
-        Task Deletar(int IngredienteID);
+        Task Deletar(int IngredienteID, int UsuarioID);
     }
     public class IngredienteServicos : IIngredienteServicos
     {
@@ -41,20 +41,20 @@ namespace Z2.Servicos
             }
         }
 
-        public async Task Deletar(int IngredienteID)
+        public async Task Deletar(int IngredienteID, int UsuarioID)
         {
-            await _da.Deletar(IngredienteID);
+            await _da.Deletar(IngredienteID, UsuarioID);
         }
 
-        public async Task<List<IngredienteModel>> Listar(int? IngredienteID)
+        public async Task<List<IngredienteModel>> Listar(int? IngredienteID, int usuarioID)
         {
-            List<IngredienteModel> lst = await _da.Listar(IngredienteID);
+            List<IngredienteModel> lst = await _da.Listar(IngredienteID, usuarioID);
             return lst;
         }
 
-        public async Task<IngredienteModel> Obter(int IngredienteID)
+        public async Task<IngredienteModel> Obter(int IngredienteID, int usuarioID)
         {
-            List<IngredienteModel> lst = await _da.Listar(IngredienteID);
+            List<IngredienteModel> lst = await _da.Listar(IngredienteID, usuarioID);
             return lst.FirstOrDefault();
         }
     }

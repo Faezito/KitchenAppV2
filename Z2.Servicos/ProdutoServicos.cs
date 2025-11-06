@@ -10,7 +10,7 @@ namespace Z2.Servicos
 {
     public interface IProdutoServicos
     {
-        Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID);
+        Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID);
         Task<int?> Cadastrar(ProdutoModel model);
         Task Deletar(ProdutoModel model);
         Task<ProdutoModel> Obter(int id, int usuarioID);
@@ -67,7 +67,7 @@ namespace Z2.Servicos
             await _daProduto.Deletar(model.ProdutoID.Value);
         }
 
-        public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int? UsuarioID)
+        public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID)
         {
             return await _daProduto.Listar(ProdutoID, UsuarioID);
         }

@@ -12,10 +12,10 @@ namespace Z3.DataAccess
 {
     public interface IIngredienteDataAccess
     {
-        Task<List<IngredienteModel>> Listar(int? IngredienteID);
+        Task<List<IngredienteModel>> Listar(int? IngredienteID, int usuarioID);
         Task<int?> Adicionar(IngredienteModel model);
         Task Atualizar(IngredienteModel model);
-        Task Deletar(int? IngredienteID);
+        Task Deletar(int? IngredienteID, int usuarioID);
         Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID);
         Task<List<CategoriasModel>> ListarCategorias();
 
@@ -66,17 +66,18 @@ WHERE IngredienteID = @IngredienteID
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
         }
 
-        public async Task Deletar(int? IngredienteID)
+        public async Task Deletar(int? IngredienteID, int usuarioID)
         {
             string sql = @"
 UPDATE KitchenApp.dbo.Ingredientes
 SET DELETADO = 1
 WHERE IngredienteID = @IngredienteID
+AND UsuarioID = @usuarioID
 ";
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { IngredienteID });
         }
 
-        public async Task<List<IngredienteModel>> Listar(int? IngredienteID)
+        public async Task<List<IngredienteModel>> Listar(int? IngredienteID, int usuarioID)
         {
             string sql = @"
 SELECT IngredienteID
@@ -87,6 +88,7 @@ SELECT IngredienteID
 ,Custo
 FROM KitchenApp.dbo.Ingredientes
 WHERE (@IngredienteID IS NULL OR IngredienteID = @IngredienteID)
+AND UsuarioID = @usuarioID
 ";
             return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: new { IngredienteID });
         }
