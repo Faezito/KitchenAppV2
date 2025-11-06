@@ -14,5 +14,6 @@ namespace Z1.Model
         public decimal Quantidade { get; set; }
         public string UnidadeMedida { get; set; }
         public decimal Custo { get; set; }
+        public int UsuarioID { get; set; }
     }
 }

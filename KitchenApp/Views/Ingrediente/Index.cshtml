@@ -1,0 +1,46 @@
+﻿@model List<IngredienteModel>
+
+
+<div class="row">
+    <div class="col-4">
+        <h1>
+            Ingredientes
+        </h1>
+    </div>
+    <div class="col-2 offset-6">
+        <a class="btn btn-primary" asp-action="Cadastrar">
+            Cadastrar
+        </a>
+    </div>
+
+</div>
+
+
+
+<div class="row d-flex gap-4 justify-content-center">
+    @foreach (var i in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">@i.Nome</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        R$ @string.Format("{0:n2}", i.Custo)
+                    </li>
+                    <li class="list-group-item">@i.Quantidade @i.UnidadeMedida</li>
+                    <li class="list-group-item">@i.CategoriaIngrediente</li>
+                </ul>
+                <div class="card-body">
+                    <div class="w-100 d-flex justify-content-center">
+                        <a asp-action="Cadastrar" asp-route-id="@i.IngredienteID" class="card-link btn btn-secondary">Editar</a>
+                        <form asp-action="Deletar" asp-route-id="@i.IngredienteID" method="post" style="display:inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="card-link btn btn-danger">Deletar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
