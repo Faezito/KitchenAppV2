@@ -29,22 +29,6 @@ C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\refint\Z3.DataAccess.dll
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.pdb
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\ref\Z3.DataAccess.dll
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.deps.json
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.dll
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.pdb
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z1.Model.dll
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z1.Model.pdb
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.csproj.AssemblyReference.cache
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.AssemblyInfoInputs.cache
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.AssemblyInfo.cs
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.sourcelink.json
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataA.C28AFEC1.Up2Date
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.dll
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\refint\Z3.DataAccess.dll
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.pdb
-C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\ref\Z3.DataAccess.dll
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.deps.json
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.dll
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.pdb
@@ -61,3 +45,19 @@ C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\refint\Z3.DataAccess.dll
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.pdb
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\ref\Z3.DataAccess.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.deps.json
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z3.DataAccess.pdb
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z1.Model.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\bin\Debug\net9.0\Z1.Model.pdb
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.sourcelink.json
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataA.C28AFEC1.Up2Date
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\refint\Z3.DataAccess.dll
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\Z3.DataAccess.pdb
+C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z3.DataAccess\obj\Debug\net9.0\ref\Z3.DataAccess.dll

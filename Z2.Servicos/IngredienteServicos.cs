@@ -14,6 +14,7 @@ namespace Z2.Servicos
         Task<IngredienteModel> Obter(int IngredienteID, int usuarioID);
         Task<int?> Cadastro(IngredienteModel model);
         Task Deletar(int IngredienteID, int UsuarioID);
+        Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID);
     }
     public class IngredienteServicos : IIngredienteServicos
     {
@@ -49,6 +50,12 @@ namespace Z2.Servicos
         public async Task<List<IngredienteModel>> Listar(int? IngredienteID, int usuarioID)
         {
             List<IngredienteModel> lst = await _da.Listar(IngredienteID, usuarioID);
+            return lst;
+        }
+
+        public async Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID)
+        {
+            List<IngredienteModel> lst = await _da.ListarIngredientesDoProduto(ProdutoID);
             return lst;
         }
 

@@ -1,0 +1,37 @@
+﻿@* @model List<ProdutoModel>
+
+
+
+@{
+}
+
+<div class="row d-flex gap-4 justify-content-center">
+    @foreach (var i in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">@i.Nome</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        R$ @string.Format("{0:n2}", i.Preco)
+                    </li>
+                    <li class="list-group-item">R$ @string.Format("{0:n2}", i.Custo)</li>
+                    <li class="list-group-item">@i.Categoria</li>
+                </ul>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="form-check form-switch mb-3 w-auto mx-auto">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                            <label class="form-check-label" for="switchCheckDefault">Ativo</label>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex justify-content-center">
+                        <a href="#" class="card-link btn btn-secondary">Editar</a>
+                        <a href="#" class="card-link btn btn-danger">Deletar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div> *@

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A00FD022-453E-4456-88EB-59973928E07B}|KitchenApp\\KitchenApp.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\kitchenapp\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A00FD022-453E-4456-88EB-59973928E07B}|KitchenApp\\KitchenApp.csproj|solutionrelative:kitchenapp\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A00FD022-453E-4456-88EB-59973928E07B}|KitchenApp\\KitchenApp.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\kitchenapp\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A00FD022-453E-4456-88EB-59973928E07B}|KitchenApp\\KitchenApp.csproj|solutionrelative:kitchenapp\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C8B5E3-F7FA-4C95-A4E3-F8FD04B9D616}|Z3.DataAccess\\Z3.DataAccess.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\z3.dataaccess\\produtodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C8B5E3-F7FA-4C95-A4E3-F8FD04B9D616}|Z3.DataAccess\\Z3.DataAccess.csproj|solutionrelative:z3.dataaccess\\produtodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0511B47B-BC31-4F9A-9F0E-C7347B43C3CF}|Z2.Servicos\\Z2.Servicos.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\z2.servicos\\produtoservicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{79C8B5E3-F7FA-4C95-A4E3-F8FD04B9D616}|Z3.DataAccess\\Z3.DataAccess.csproj|solutionrelative:z3.dataaccess\\ingredientedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A00FD022-453E-4456-88EB-59973928E07B}|KitchenApp\\KitchenApp.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\kitchenapp\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A00FD022-453E-4456-88EB-59973928E07B}|KitchenApp\\KitchenApp.csproj|solutionrelative:kitchenapp\\views\\produto\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7A88B763-98FE-4D86-8B59-8A2D5E5FB1C1}|Z1.Model\\Z1.Model.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\z1.model\\ingredientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88B763-98FE-4D86-8B59-8A2D5E5FB1C1}|Z1.Model\\Z1.Model.csproj|solutionrelative:z1.model\\ingredientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79C8B5E3-F7FA-4C95-A4E3-F8FD04B9D616}|Z3.DataAccess\\Z3.DataAccess.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\z3.dataaccess\\produtodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C8B5E3-F7FA-4C95-A4E3-F8FD04B9D616}|Z3.DataAccess\\Z3.DataAccess.csproj|solutionrelative:z3.dataaccess\\produtodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A88B763-98FE-4D86-8B59-8A2D5E5FB1C1}|Z1.Model\\Z1.Model.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\z1.model\\produtoingredientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A88B763-98FE-4D86-8B59-8A2D5E5FB1C1}|Z1.Model\\Z1.Model.csproj|solutionrelative:z1.model\\produtoingredientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A88B763-98FE-4D86-8B59-8A2D5E5FB1C1}|Z1.Model\\Z1.Model.csproj|c:\\users\\matheus\\source\\repos\\kitchenapp\\kitchenappv2\\z1.model\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A88B763-98FE-4D86-8B59-8A2D5E5FB1C1}|Z1.Model\\Z1.Model.csproj|solutionrelative:z1.model\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProdutoIngredienteModel.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z1.Model\\ProdutoIngredienteModel.cs",
-              "RelativeDocumentMoniker": "Z1.Model\\ProdutoIngredienteModel.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z1.Model\\ProdutoIngredienteModel.cs",
-              "RelativeToolTip": "Z1.Model\\ProdutoIngredienteModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Title": "IngredienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z1.Model\\IngredienteModel.cs",
+              "RelativeDocumentMoniker": "Z1.Model\\IngredienteModel.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z1.Model\\IngredienteModel.cs",
+              "RelativeToolTip": "Z1.Model\\IngredienteModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T17:27:21.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
-              "RelativeToolTip": "KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-01T13:21:45.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "KitchenApp\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "KitchenApp\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T13:18:55.526Z",
+              "WhenOpened": "2025-11-09T17:41:26.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "KitchenApp\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "KitchenApp\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAWwEIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:52:37.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProdutoServicos.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z2.Servicos\\ProdutoServicos.cs",
               "RelativeDocumentMoniker": "Z2.Servicos\\ProdutoServicos.cs",
               "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z2.Servicos\\ProdutoServicos.cs",
               "RelativeToolTip": "Z2.Servicos\\ProdutoServicos.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAArwDcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAnwFAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:36:36.909Z",
+              "WhenOpened": "2025-11-08T19:24:06.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z1.Model\\ProdutoModel.cs",
+              "RelativeDocumentMoniker": "Z1.Model\\ProdutoModel.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z1.Model\\ProdutoModel.cs",
+              "RelativeToolTip": "Z1.Model\\ProdutoModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:48:55.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
+              "RelativeToolTip": "KitchenApp\\Views\\Produto\\Cadastrar.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T22:33:24.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProdutoDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z3.DataAccess\\ProdutoDataAccess.cs",
-              "RelativeDocumentMoniker": "Z3.DataAccess\\ProdutoDataAccess.cs",
-              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z3.DataAccess\\ProdutoDataAccess.cs",
-              "RelativeToolTip": "Z3.DataAccess\\ProdutoDataAccess.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAmwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:28:45.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IngredienteDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z3.DataAccess\\IngredienteDataAccess.cs",
               "RelativeDocumentMoniker": "Z3.DataAccess\\IngredienteDataAccess.cs",
               "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z3.DataAccess\\IngredienteDataAccess.cs",
               "RelativeToolTip": "Z3.DataAccess\\IngredienteDataAccess.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAuwH4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAApwHwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T17:14:04.747Z",
+              "WhenOpened": "2025-11-08T22:00:18.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z3.DataAccess\\ProdutoDataAccess.cs",
+              "RelativeDocumentMoniker": "Z3.DataAccess\\ProdutoDataAccess.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\KitchenApp\\KitchenAppV2\\Z3.DataAccess\\ProdutoDataAccess.cs",
+              "RelativeToolTip": "Z3.DataAccess\\ProdutoDataAccess.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAArwJgAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T19:55:12.114Z",
               "EditorCaption": ""
             }
           ]

@@ -14,14 +14,16 @@ namespace KitchenApp.Controllers
         private readonly IProdutoServicos _seProduto;
         private readonly Sessao _sessao;
         private readonly LoginUsuario _login;
+        private readonly IIngredienteServicos _seIngrediente;
 
-        public ProdutoController(IProdutoServicos seProduto, Sessao sessao, LoginUsuario loginUsuario)
+        public ProdutoController(IProdutoServicos seProduto, Sessao sessao, LoginUsuario loginUsuario, IIngredienteServicos seIngrediente)
         {
             _seProduto = seProduto;
             _sessao = sessao;
             _login = loginUsuario;
+            _seIngrediente = seIngrediente;
         }
-        public async Task<IActionResult> Index(int? ProdutoID, int? UsuarioID)
+        public async Task<IActionResult> Index(int? ProdutoID, int UsuarioID)
         {
             var usuario = _login.GetCliente();
             UsuarioID = usuario.Id.Value;
@@ -40,6 +42,10 @@ namespace KitchenApp.Controllers
             if (id.HasValue)
             {
                 model = await _seProduto.Obter(id.Value, usuarioID);
+                List<IngredienteModel> lst = await _seIngrediente.ListarIngredientesDoProduto(model.ProdutoID.Value);
+                model.Ingredientes = lst;
+
+                //TODO: CONFERIR COMO TRAZER A LISTA PARA DENTRO DO MODEL DO PRODUTO
 
                 if (model == null)
                     return NotFound();
@@ -57,6 +63,13 @@ namespace KitchenApp.Controllers
         {
             var usuario = _login.GetCliente();
             model.UsuarioID = usuario.Id.Value;
+            ModelState.Keys
+                .Where(k =>
+                    k.Contains("IngredienteDescr") ||
+                    k.Contains("UnidadeMedida") ||
+                    k.Contains("CategoriaIngrediente"))
+                .ToList()
+                .ForEach(k => ModelState.Remove(k));
 
             if (usuario == null)
             {
@@ -86,6 +99,25 @@ namespace KitchenApp.Controllers
             model.UsuarioID = usuario.Id.Value;
 
             await _seProduto.Deletar(model);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AtivarDesativar(int id)
+        {
+            var usuario = _login.GetCliente();
+            int usuarioID = usuario.Id.Value;
+
+            ProdutoModel model = await _seProduto.Obter(id, usuarioID);
+
+            if (model.Ativo)
+                model.Ativo = false;
+            else
+                model.Ativo = true;
+
+            model.UsuarioID = usuario.Id.Value;
+
+            await _seProduto.AtivarDesativar(model);
             return RedirectToAction(nameof(Index));
         }
     }

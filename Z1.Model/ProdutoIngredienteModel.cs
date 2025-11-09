@@ -10,7 +10,7 @@ namespace Z1.Model
     {
         public int ProdutoID { get; set; }
         public int IngredienteID { get; set; }
-        public string IngredienteNome { get; set; }
+        public string? IngredienteNome { get; set; }
         public decimal Quantidade { get; set; }
     }
 }

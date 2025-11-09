@@ -24,12 +24,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Home/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGF5b3V0LmNzaHRtbA==
+[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Ingrediente/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudGVcQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Home/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld0ltcG9ydHMuY3NodG1s
+[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Ingrediente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Ingrediente/_Tabela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVkaWVudGVcX1RhYmVsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Produto/Cadastrar.cshtml]
@@ -42,10 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Produto/_Tabela.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xfVGFiZWxhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Produto/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Shared/Components/DropCategorias/Default.cshtml]
@@ -88,13 +88,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Produto/_LayoutUsuario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xfTGF5b3V0VXN1YXJpby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-otpo15iwv9
-
 [C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b6ockr98n7
+
+[C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Shared/_LayoutHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-7vb7zz259q
 
 [C:/Users/Matheus/source/repos/KitchenApp/KitchenAppV2/KitchenApp/Views/Usuario/_LayoutUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xfTGF5b3V0VXN1YXJpby5jc2h0bWw=

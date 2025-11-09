@@ -16,6 +16,7 @@ namespace Z1.Model
         public bool Ativo { get; set; } = true;
         public int UsuarioID { get; set; }
 
-        public List<ProdutoIngredienteModel> Ingredientes { get; set; } = new List<ProdutoIngredienteModel>();
+        //public List<ProdutoIngredienteModel> ProdutoIngredientes { get; set; } = new List<ProdutoIngredienteModel>();
+        public List<IngredienteModel> Ingredientes { get; set; } = new List<IngredienteModel>();
     }
 }

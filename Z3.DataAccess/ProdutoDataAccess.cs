@@ -16,6 +16,8 @@ namespace Z3.DataAccess
         Task<int?> Adicionar(ProdutoModel model);
         Task Atualizar(ProdutoModel model);
         Task Deletar(int ProdutoID);
+        Task LimparIngredientes(ProdutoModel model);
+        Task AtivarDesativar(ProdutoModel model);
         Task InserirProdutoIngredientes(ProdutoIngredienteModel model);
         Task<List<CategoriasModel>> ListarCategorias();
     }
@@ -77,6 +79,16 @@ WHERE ProdutoID = @ProdutoID
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID });
         }
 
+        public async Task AtivarDesativar(ProdutoModel model)
+        {
+            string sql = @"
+UPDATE KitchenApp.dbo.Produtos
+SET Ativo = @Ativo
+WHERE ProdutoID = @ProdutoID
+";
+            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
+        }
+
         public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID)
         {
             string sql = @"
@@ -91,6 +103,7 @@ FROM KitchenApp.dbo.Produtos
 WHERE DELETADO = 0 
 AND UsuarioID = @UsuarioID
 AND (@ProdutoID IS NULL OR ProdutoID = @ProdutoID)
+ORDER BY Ativo DESC
 
 ";
             return await _dapper.QueryAsync<ProdutoModel>(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID, UsuarioID });
@@ -127,6 +140,22 @@ SELECT CategoriaID
             catch (Exception ex)
             {
                 throw;
+            }
+        }
+
+        public async Task LimparIngredientes(ProdutoModel model)
+        {
+            try
+            {
+                string sql = @"
+DELETE FROM KitchenApp.dbo.ProdutoIngredientes WHERE ProdutoID = @ProdutoID
+";
+                await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
             }
         }
     }

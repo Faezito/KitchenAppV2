@@ -13,6 +13,7 @@ namespace Z2.Servicos
         Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID);
         Task<int?> Cadastrar(ProdutoModel model);
         Task Deletar(ProdutoModel model);
+        Task AtivarDesativar(ProdutoModel model);
         Task<ProdutoModel> Obter(int id, int usuarioID);
 
         // RELAÇÃO PRODUTO x INGREDIENTES
@@ -31,34 +32,23 @@ namespace Z2.Servicos
             _daIngrediente = daIngrediente;
         }
 
-        //public async Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds)
-        //{
-        //    foreach (var i in ingredientesIds)
-        //    {
-        //        await _daProduto.InserirProdutoIngredientes(ProdutoID, i);
-        //    }
-        //}
+        public async Task AtivarDesativar(ProdutoModel model)
+        {
+            await _daProduto.AtivarDesativar(model);
+        }
 
         public async Task<int?> Cadastrar(ProdutoModel model)
         {
-            foreach(var i in model.Ingredientes)
-            {
-                ProdutoIngredienteModel PImodel = new ProdutoIngredienteModel
-                {
-                    IngredienteID = i.IngredienteID,
-                    ProdutoID = model.ProdutoID.Value,
-                    Quantidade = i.Quantidade
-                };
-                await _daProduto.InserirProdutoIngredientes(PImodel);
-            }
-
-
             if (model.ProdutoID.HasValue)
             {
                 await _daProduto.Atualizar(model);
+                await InserirIngredientes(model);
                 return model.ProdutoID;
             }
-            await _daProduto.Adicionar(model);
+            var produtoID = await _daProduto.Adicionar(model);
+            model.ProdutoID = produtoID;
+
+            await InserirIngredientes(model);
             return model.ProdutoID;
         }
 
@@ -82,6 +72,23 @@ namespace Z2.Servicos
         {
             List<ProdutoModel> lst = await _daProduto.Listar(id, usuarioID);
             return lst.FirstOrDefault();
+        }
+
+        private async Task InserirIngredientes(ProdutoModel model)
+        {
+            if (model.Ingredientes == null || !model.Ingredientes.Any())
+                return;
+            await _daProduto.LimparIngredientes(model);
+            foreach (var i in model.Ingredientes)
+            {
+                ProdutoIngredienteModel PImodel = new ProdutoIngredienteModel
+                {
+                    IngredienteID = i.IngredienteID.Value,
+                    ProdutoID = model.ProdutoID.Value,
+                    Quantidade = i.Quantidade
+                };
+                await _daProduto.InserirProdutoIngredientes(PImodel);
+            }
         }
     }
 }

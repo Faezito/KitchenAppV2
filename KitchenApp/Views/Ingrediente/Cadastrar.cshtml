@@ -1,0 +1,41 @@
+﻿@model IngredienteModel;
+
+@{
+}
+
+<div class="row">
+    <div class="col-auto">
+        <form class="form d-grid gap-3" method="POST" asp-action="Cadastrar">
+            @Html.HiddenFor(x => x.IngredienteID)
+
+            <div class="row gap-4">
+                <input type="text" asp-for="IngredienteDescr" class="col form-control" placeholder="Nome" />
+                <select class="col form-control" asp-for="CategoriaIngrediente">
+                    <option value="0" disabled>Categoria</option>
+                    @await Component.InvokeAsync("DropIngredienteCategorias")
+                </select>
+                <input type="text" asp-for="Custo" class="col form-control money" placeholder="Custo" />
+            </div>
+            <div class="row gap-4">
+                <input type="text" asp-for="Quantidade" class="col form-control money" placeholder="Venda" />
+                <select class="col form-control" asp-for="UnidadeMedida">
+                    <option value="0" disabled>Categoria</option>
+                    @await Component.InvokeAsync("DropUnidadesMedida")
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-mask/jquery.mask.js"></script>
+    <script>
+            $(document).ready(function() {
+                $('.date').mask('00/00/0000');
+                $('.money').mask('000.000.000.000.000,00', { reverse: true });
+            });
+
+
+    </script>
+}

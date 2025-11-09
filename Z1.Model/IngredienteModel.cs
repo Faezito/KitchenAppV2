@@ -9,11 +9,12 @@ namespace Z1.Model
     public class IngredienteModel
     {
         public int? IngredienteID { get; set; }
-        public string Nome { get; set; }
+        public string IngredienteDescr { get; set; }
         public string CategoriaIngrediente { get; set; }
         public decimal Quantidade { get; set; }
         public string UnidadeMedida { get; set; }
         public decimal Custo { get; set; }
         public int UsuarioID { get; set; }
+        public int? ProdutoID { get; set; }
     }
 }

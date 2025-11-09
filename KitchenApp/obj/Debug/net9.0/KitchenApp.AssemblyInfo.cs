@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KitchenApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d84ebcf3021d2c023ff5e76d6367e15b9e7f139a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d028849df8ed36a7628d59ad4f73a6f3e7825ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("KitchenApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KitchenApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

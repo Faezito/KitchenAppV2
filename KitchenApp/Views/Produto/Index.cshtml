@@ -1,6 +1,5 @@
 ﻿@model List<ProdutoModel>
 
-
 <div class="row">
     <div class="col-4">
         <h1>
@@ -14,8 +13,6 @@
     </div>
 
 </div>
-
-
 
 <div class="row d-flex gap-4 justify-content-center">
     @foreach (var i in Model)
@@ -32,19 +29,20 @@
                     <li class="list-group-item">@i.Categoria</li>
                 </ul>
                 <div class="card-body">
-                    <div class="row">
-                        <div class="form-check form-switch mb-3 w-auto mx-auto">
-                            <input class="form-check-input" value="@i.Ativo" type="checkbox" role="switch" id="switchCheckDefault"
-                                   @(i.Ativo ? "checked" : "")>
-                            <label class="form-check-label" for="switchCheckDefault">Ativo</label>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <div class="w-100 d-flex justify-content-center">
+                            <a asp-action="Cadastrar" asp-route-id="@i.ProdutoID" class="card-link btn btn-secondary">Editar</a>
+                            <form asp-action="Deletar" asp-route-id="@i.ProdutoID" method="post" style="display:inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="card-link btn btn-danger">Deletar</button>
+                            </form>
+                            <form asp-action="AtivarDesativar" asp-controller="Produto" asp-route-id="@i.ProdutoID" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-primary @(i.Ativo ? "" : "active")">
+                                    @(i.Ativo ? "Desativar" : "Ativar")
+                                </button>
+                            </form>
                         </div>
-                    </div>
-                    <div class="w-100 d-flex justify-content-center">
-                        <a asp-action="Cadastrar" asp-route-id="@i.ProdutoID" class="card-link btn btn-secondary">Editar</a>
-                        <form asp-action="Deletar" asp-route-id="@i.ProdutoID" method="post" style="display:inline">
-                            @Html.AntiForgeryToken()
-                            <button type="submit" class="card-link btn btn-danger">Deletar</button>
-                        </form>
                     </div>
                 </div>
             </div>
