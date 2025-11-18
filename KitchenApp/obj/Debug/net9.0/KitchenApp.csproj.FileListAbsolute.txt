@@ -246,7 +246,6 @@ C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\s
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\projectbundle\KitchenApp.bundle.scp.css
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\r76nek1klv-pf9lt6rzvk.gz
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\9hy7i5gwjq-61n19gt1b8.gz
-C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\zish0nufkr-xtxxf3hu2r.gz
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\x5inff526k-t1cqhe9u97.gz
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\62elfq7j2m-c2jlpeoesf.gz
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\d82mia41ba-sejl45xvog.gz
@@ -317,9 +316,6 @@ C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\r
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\KitchenApp.pdb
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\KitchenApp.genruntimeconfig.cache
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\ref\KitchenApp.dll
-C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Usuario\Shared\_LayoutUsuario.cshtml.rz.scp.css
-C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-rseuix43lk.gz
-C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-rseuix43lk.gz
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\bin\Debug\net9.0\appsettings.json
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\bin\Debug\net9.0\KitchenApp.staticwebassets.runtime.json
@@ -653,3 +649,15 @@ C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\KitchenApp.pdb
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\KitchenApp.genruntimeconfig.cache
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\obj\Debug\net9.0\ref\KitchenApp.dll
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\bin\Debug\net9.0\DotNetEnv.dll
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\bin\Debug\net9.0\GenerativeAI.dll
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\bin\Debug\net9.0\Sprache.dll
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Shared\_LayoutHome.cshtml.rz.scp.css
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scopedcss\Views\Usuario\_LayoutUsuario.cshtml.rz.scp.css
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\zish0nufkr-teudtse8sd.gz
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\phu6htvgas-rhd06i1uts.gz
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\9kwnm7fi6h-zpnvw78bna.gz
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-bgmchrug0l.gz
+C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-bgmchrug0l.gz

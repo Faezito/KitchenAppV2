@@ -31,31 +31,43 @@
             </div>
 
             <button id="addIngrediente" type="button" class="btn btn-primary mb-2">+</button>
-            
-            <div id="ingredientes">
-                @if (Model.Ingredientes != null && Model.Ingredientes.Any())
-                {
-                    for (int i = 0; i < Model.Ingredientes.Count; i++)
-                    {
-                        <div class="col-12 d-flex mb-2 align-items-center">
-                            @Html.HiddenFor(m => m.Ingredientes[i].IngredienteID)
-                            @Html.TextBoxFor(m => m.Ingredientes[i].IngredienteDescr,
-                            new { @class = "form-control me-2", @readonly = "readonly" })
-                            @Html.TextBoxFor(m => m.Ingredientes[i].Quantidade,
-                                        new { @class = "form-control me-2" })
-
-                    <button type="button" class="btn btn-danger btn-sm removeIngrediente">X</button>
-
-                </div>
-                    }
-                }
-            </div>
-
-            <div class="row" id="ingredientesContainer">
-            </div>
 
             <button type="submit" class="btn btn-success">Salvar</button>
+            <div class="row" id="ingredientesContainer">
+            </div>
         </form>
+
+        <div id="ingredientes">
+            @if (Model.Ingredientes != null && Model.Ingredientes.Any())
+            {
+                for (int i = 0; i < Model.Ingredientes.Count; i++)
+                {
+                        <div class="col-12 d-flex mb-2 align-items-center">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Ingrediente</td>
+                                        <td>Quantidade</td>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td>@Model.Ingredientes[i].IngredienteDescr</td>
+                                    <td>@Model.Ingredientes[i].Quantidade</td>
+                                </tr>
+                            </table>
+                            @Html.HiddenFor(m => m.Ingredientes[i].IngredienteID)
+                        <form asp-action="Deletar" asp-route-id="@Model.Ingredientes[i].IngredienteID" method="post" style="display:inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="card-link btn btn-danger">Deletar</button>
+                        </form>
+                            <button type="button" class="btn btn-danger btn-sm removeIngrediente fw-bolder">X</button>
+                        </div>
+                }
+            }
+        </div>
+
+
     </div>
 </div>
 
