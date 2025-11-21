@@ -14,8 +14,12 @@ namespace Z2.Servicos
         Task<int?> Cadastrar(ProdutoModel model);
         Task Deletar(ProdutoModel model);
 <<<<<<< HEAD
+<<<<<<< HEAD
         Task AtivarDesativar(ProdutoModel model);
         Task<ProdutoModel> Obter(int id, int usuarioID);
+=======
+        Task<ProdutoModel> Obter(int id);
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
         Task<ProdutoModel> Obter(int id);
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
@@ -37,6 +41,7 @@ namespace Z2.Servicos
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public async Task AtivarDesativar(ProdutoModel model)
         {
             await _daProduto.AtivarDesativar(model);
@@ -57,6 +62,21 @@ namespace Z2.Servicos
             return model.ProdutoID;
 =======
         public Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds)
+        {
+            throw new NotImplementedException();
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
+=======
+        public Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int?> Cadastrar(ProdutoModel model)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task Deletar(ProdutoModel model)
         {
             throw new NotImplementedException();
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

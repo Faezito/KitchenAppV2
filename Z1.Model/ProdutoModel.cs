@@ -16,9 +16,12 @@ namespace Z1.Model
         public bool Ativo { get; set; }
         public int UsuarioID { get; set; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         //public List<ProdutoIngredienteModel> ProdutoIngredientes { get; set; } = new List<ProdutoIngredienteModel>();
         public List<IngredienteModel> Ingredientes { get; set; } = new List<IngredienteModel>();
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     }

@@ -16,11 +16,16 @@ namespace Z3.DataAccess
         Task<int?> Adicionar(ProdutoModel model);
         Task Atualizar(ProdutoModel model);
 <<<<<<< HEAD
+<<<<<<< HEAD
         Task Deletar(int ProdutoID);
         Task LimparIngredientes(ProdutoModel model);
         Task AtivarDesativar(ProdutoModel model);
         Task InserirProdutoIngredientes(ProdutoIngredienteModel model);
         Task<List<CategoriasModel>> ListarCategorias();
+=======
+        Task Deletar(int? ProdutoID);
+
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
         Task Deletar(int? ProdutoID);
 
@@ -122,6 +127,7 @@ ORDER BY Ativo DESC
         VALUES (@ProdutoID, @IngredienteID, @Quantidade);";
 
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
+<<<<<<< HEAD
         }
         }
 
@@ -139,5 +145,8 @@ DELETE FROM KitchenApp.dbo.ProdutoIngredientes WHERE ProdutoID = @ProdutoID
 
                 throw ex;
             }
+=======
+        }
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         }
     }

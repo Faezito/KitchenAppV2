@@ -9,7 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Z1.Model
 <<<<<<< HEAD
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\Z1.Model\
+=======
+build_property.ProjectDir = C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
 build_property.ProjectDir = C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

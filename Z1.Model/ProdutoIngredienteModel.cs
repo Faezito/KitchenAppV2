@@ -11,7 +11,10 @@ namespace Z1.Model
         public int ProdutoID { get; set; }
         public int IngredienteID { get; set; }
 <<<<<<< HEAD
+<<<<<<< HEAD
         public string? IngredienteNome { get; set; }
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         public decimal Quantidade { get; set; }

@@ -9,9 +9,12 @@ namespace Z1.Model
     public class IngredienteModel
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         public int? IngredienteID { get; set; }
         public string IngredienteDescr { get; set; }
 =======
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         public int IngredienteID { get; set; }
         public string Nome { get; set; }
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

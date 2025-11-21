@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
@@ -64,6 +65,8 @@ C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\wwwroot\lib\bootst
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\wwwroot\js\site.js
 =======
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
@@ -126,6 +129,9 @@ C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\lib\bootstrap
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\wwwroot\js\site.js
+<<<<<<< HEAD
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
+=======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 wwwroot\css\site.css
 wwwroot\favicon.ico

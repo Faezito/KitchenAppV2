@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "C9C45PJbZ6k=",
   "success": true,
   "projectFilePath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj",
@@ -129,6 +130,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "+MLNHSN66eQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj",
+  "expectedPackageFiles": [
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
@@ -248,6 +255,9 @@
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
+=======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
   ],
   "logs": []

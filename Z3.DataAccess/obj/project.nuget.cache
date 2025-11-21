@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "WtO3D8JOlew=",
   "success": true,
   "projectFilePath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj",
@@ -19,6 +20,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "EnsjqHhBXxE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj",
+  "expectedPackageFiles": [
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\google_generativeai\\3.4.0\\google_generativeai.3.4.0.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
@@ -28,6 +35,9 @@
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\microsoft.extensions.options.9.0.3.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\microsoft.extensions.primitives.9.0.3.nupkg.sha512",
     "C:\\Users\\Matheus Faé\\.nuget\\packages\\system.text.json\\9.0.3\\system.text.json.9.0.3.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
+=======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
   ],
   "logs": []

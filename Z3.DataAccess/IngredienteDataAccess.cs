@@ -75,7 +75,11 @@ WHERE IngredienteID = @IngredienteID
 AND UsuarioID = @usuarioID
 ";
 <<<<<<< HEAD
+<<<<<<< HEAD
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { IngredienteID, usuarioID });
+=======
+            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: IngredienteID);
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: IngredienteID);
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
@@ -94,6 +98,7 @@ FROM KitchenApp.dbo.Ingredientes
 WHERE (@IngredienteID IS NULL OR IngredienteID = @IngredienteID)
 AND UsuarioID = @usuarioID
 ";
+<<<<<<< HEAD
 <<<<<<< HEAD
             return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: new { IngredienteID, usuarioID });
         }
@@ -117,6 +122,9 @@ SELECT CategoriaID
 =======
             return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: IngredienteID);
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
+=======
+            return await _dapper.QueryAsync<IngredienteModel>(sql: sql, commandType: System.Data.CommandType.Text, param: IngredienteID);
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         }
 
         public async Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID)
@@ -125,7 +133,11 @@ SELECT CategoriaID
 SELECT 
 P.ProdutoID,
 <<<<<<< HEAD
+<<<<<<< HEAD
 P.Nome AS ProdutoDescr,
+=======
+P.Titulo,
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
 P.Titulo,
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

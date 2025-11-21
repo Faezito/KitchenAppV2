@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {}
   },
   "projects": {
@@ -26,13 +27,30 @@
         "packagesPath": "C:\\Users\\Matheus Faé\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\obj\\",
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
+=======
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj",
+        "projectName": "Z1.Model",
+        "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj",
+        "packagesPath": "C:\\Users\\Matheus Faé\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\obj\\",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
           "C:\\Users\\matheus.fae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Matheus Faé\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
           "C:\\Users\\Matheus Faé\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

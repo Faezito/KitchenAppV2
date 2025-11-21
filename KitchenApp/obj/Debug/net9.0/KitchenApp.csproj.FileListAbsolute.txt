@@ -648,6 +648,7 @@ C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\scop
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-64jluibg9t.gz
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-64jluibg9t.gz
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\appsettings.json
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\KitchenApp\bin\Debug\net9.0\KitchenApp.staticwebassets.runtime.json
@@ -830,5 +831,7 @@ C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\c
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\9kwnm7fi6h-zpnvw78bna.gz
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\ncba83ezzf-bgmchrug0l.gz
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\KitchenApp\obj\Debug\net9.0\compressed\dwjlezq0fe-bgmchrug0l.gz
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

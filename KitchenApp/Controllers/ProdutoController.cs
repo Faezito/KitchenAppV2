@@ -10,6 +10,7 @@ namespace KitchenApp.Controllers
     {
         private readonly IProdutoServicos _seProduto;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private readonly Sessao _sessao;
         private readonly LoginUsuario _login;
         private readonly IIngredienteServicos _seIngrediente;
@@ -28,10 +29,19 @@ namespace KitchenApp.Controllers
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         }
         public async Task<IActionResult> Index(int? ProdutoID, int UsuarioID)
+=======
+
+        public ProdutoController(IProdutoServicos seProduto)
+        {
+            _seProduto = seProduto;
+        }
+        public async Task<IActionResult> Index(int? ProdutoID, int? UsuarioID)
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         {
             List<ProdutoModel> lst = await _seProduto.Listar(ProdutoID, null);
             return View(lst);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         [HttpGet]
@@ -122,6 +132,8 @@ namespace KitchenApp.Controllers
             await _seProduto.AtivarDesativar(model);
             return RedirectToAction(nameof(Index));
         }
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 =======
 >>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     }
