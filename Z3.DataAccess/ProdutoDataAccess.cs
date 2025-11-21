@@ -15,11 +15,16 @@ namespace Z3.DataAccess
         Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID);
         Task<int?> Adicionar(ProdutoModel model);
         Task Atualizar(ProdutoModel model);
+<<<<<<< HEAD
         Task Deletar(int ProdutoID);
         Task LimparIngredientes(ProdutoModel model);
         Task AtivarDesativar(ProdutoModel model);
         Task InserirProdutoIngredientes(ProdutoIngredienteModel model);
         Task<List<CategoriasModel>> ListarCategorias();
+=======
+        Task Deletar(int? ProdutoID);
+
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     }
 
     public class ProdutoDataAccess : IProdutoDataAccess
@@ -47,8 +52,7 @@ VALUES (
 @Custo,
 @Preco,
 @Categoria,
-@Ativo,
-@UsuarioID
+@Ativo
 )
  SELECT SCOPE_IDENTITY()
 ";
@@ -63,20 +67,21 @@ SET Nome = COALESCE(@Nome, Nome),
 Custo = COALESCE(@Custo, Custo),
 Preco = COALESCE(@Preco, Preco),
 Ativo = COALESCE(@Ativo, Ativo),
-Categoria = COALESCE(@Categoria, Categoria)
+Categoria = COALESCE(@Categoria, Categoria),
+Ativo = COALESCE(@Ativo, Ativo)
 WHERE ProdutoID = @ProdutoID
 ";
             await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
         }
 
-        public async Task Deletar(int ProdutoID)
+        public async Task Deletar(int? ProdutoID)
         {
             string sql = @"
 UPDATE KitchenApp.dbo.Produtos
 SET DELETADO = 1
 WHERE ProdutoID = @ProdutoID
 ";
-            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: new { ProdutoID });
+            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: ProdutoID);
         }
 
         public async Task AtivarDesativar(ProdutoModel model)
@@ -101,7 +106,7 @@ SELECT ProdutoID
 ,UsuarioID
 FROM KitchenApp.dbo.Produtos
 WHERE DELETADO = 0 
-AND UsuarioID = @UsuarioID
+AND (@UsuarioID IS NULL OR UsuarioID = @UsuarioID)
 AND (@ProdutoID IS NULL OR ProdutoID = @ProdutoID)
 ORDER BY Ativo DESC
 
@@ -112,35 +117,12 @@ ORDER BY Ativo DESC
 
         public async Task InserirProdutoIngredientes(ProdutoIngredienteModel model)
         {
-            try
-            {
-                string sql = @"
+            string sql = @"
         INSERT INTO KitchenApp.dbo.ProdutoIngredientes (ProdutoID, IngredienteID, Quantidade)
         VALUES (@ProdutoID, @IngredienteID, @Quantidade);";
-                await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+
+            await _dapper.ExecuteAsync(sql: sql, commandType: System.Data.CommandType.Text, param: model);
         }
-
-        public async Task<List<CategoriasModel>> ListarCategorias()
-        {
-            try
-            {
-                string sql = @"
-SELECT CategoriaID
-      ,Categoria
-  FROM KitchenApp.dbo.Categorias
-";
-                return await _dapper.QueryAsync<CategoriasModel>(sql: sql, commandType: System.Data.CommandType.Text, param: null);
-
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
         }
 
         public async Task LimparIngredientes(ProdutoModel model)
@@ -159,4 +141,3 @@ DELETE FROM KitchenApp.dbo.ProdutoIngredientes WHERE ProdutoID = @ProdutoID
             }
         }
     }
-}

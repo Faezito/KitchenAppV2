@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj",
         "packagesPath": "C:\\Users\\matheus.fae\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\KitchenApp\\obj\\",
+=======
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj",
+        "projectName": "KitchenApp",
+        "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\KitchenApp.csproj",
+        "packagesPath": "C:\\Users\\Matheus Faé\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\KitchenApp\\obj\\",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\matheus.fae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Matheus Faé\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +44,25 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
                 "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj"
               },
               "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj": {
                 "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj"
+=======
+              "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
+                "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj"
+              },
+              "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj": {
+                "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj"
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
               }
             }
           }
@@ -102,10 +127,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -114,12 +140,26 @@
         "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj",
         "packagesPath": "C:\\Users\\matheus.fae\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\obj\\",
+=======
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj",
+        "projectName": "Z1.Model",
+        "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj",
+        "packagesPath": "C:\\Users\\Matheus Faé\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\obj\\",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\matheus.fae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Matheus Faé\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,7 +168,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -174,10 +213,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -186,12 +226,26 @@
         "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj",
         "packagesPath": "C:\\Users\\matheus.fae\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z2.Servicos\\obj\\",
+=======
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj",
+        "projectName": "Z2.Servicos",
+        "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z2.Servicos\\Z2.Servicos.csproj",
+        "packagesPath": "C:\\Users\\Matheus Faé\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z2.Servicos\\obj\\",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\matheus.fae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Matheus Faé\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -200,18 +254,25 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
                 "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj"
               },
               "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj"
+=======
+              "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
+                "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj"
+              },
+              "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj"
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
               }
             }
           }
@@ -253,10 +314,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -265,12 +327,26 @@
         "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj",
         "packagesPath": "C:\\Users\\matheus.fae\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z3.DataAccess\\obj\\",
+=======
+    "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj",
+        "projectName": "Z3.DataAccess",
+        "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\Z3.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Matheus Faé\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z3.DataAccess\\obj\\",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\matheus.fae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Matheus Faé\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,15 +355,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
                 "projectPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj"
+=======
+              "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj": {
+                "projectPath": "C:\\Users\\Matheus Faé\\source\\repos\\KitchenAppV2\\Z1.Model\\Z1.Model.csproj"
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
               }
             }
           }
@@ -333,7 +413,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

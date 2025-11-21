@@ -13,11 +13,15 @@ namespace Z2.Servicos
         Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID);
         Task<int?> Cadastrar(ProdutoModel model);
         Task Deletar(ProdutoModel model);
+<<<<<<< HEAD
         Task AtivarDesativar(ProdutoModel model);
         Task<ProdutoModel> Obter(int id, int usuarioID);
+=======
+        Task<ProdutoModel> Obter(int id);
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 
         // RELAÇÃO PRODUTO x INGREDIENTES
-        //Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds);
+        Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds);
         Task<List<IngredienteModel>> ListarIngredientesDoProduto(int ProdutoID);
     }
 
@@ -28,10 +32,11 @@ namespace Z2.Servicos
 
         public ProdutoServicos(IProdutoDataAccess daProduto, IIngredienteDataAccess daIngrediente)
         {
-            _daProduto = daProduto;
-            _daIngrediente = daIngrediente;
+             _daProduto = daProduto;
+             _daIngrediente = daIngrediente; 
         }
 
+<<<<<<< HEAD
         public async Task AtivarDesativar(ProdutoModel model)
         {
             await _daProduto.AtivarDesativar(model);
@@ -50,11 +55,21 @@ namespace Z2.Servicos
 
             await InserirIngredientes(model);
             return model.ProdutoID;
+=======
+        public Task AtribuirIngredientes(int ProdutoID, List<int> ingredientesIds)
+        {
+            throw new NotImplementedException();
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         }
 
-        public async Task Deletar(ProdutoModel model)
+        public Task<int?> Cadastrar(ProdutoModel model)
         {
-            await _daProduto.Deletar(model.ProdutoID.Value);
+            throw new NotImplementedException();
+        }
+
+        public Task Deletar(ProdutoModel model)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<List<ProdutoModel>> Listar(int? ProdutoID, int UsuarioID)
@@ -68,9 +83,9 @@ namespace Z2.Servicos
             return lst;
         }
 
-        public async Task<ProdutoModel?> Obter(int id, int usuarioID)
+        public async Task<ProdutoModel?> Obter(int id)
         {
-            List<ProdutoModel> lst = await _daProduto.Listar(id, usuarioID);
+            List<ProdutoModel> lst = await _daProduto.Listar(id, null);
             return lst.FirstOrDefault();
         }
 

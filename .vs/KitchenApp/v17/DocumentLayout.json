@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\matheus.fae\\Documents\\GitHub\\KitchenAppV2\\",
   "Documents": [
     {
@@ -49,10 +50,15 @@
       "RelativeMoniker": "D:0:0:{0511B47B-BC31-4F9A-9F0E-C7347B43C3CF}|Z2.Servicos\\Z2.Servicos.csproj|solutionrelative:z2.servicos\\produtoservicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\Matheus Fa\u00E9\\source\\repos\\KitchenAppV2\\",
+  "Documents": [],
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 205,
@@ -209,6 +215,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     }
   ]
 }

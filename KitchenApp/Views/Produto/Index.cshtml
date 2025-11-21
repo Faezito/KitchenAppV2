@@ -1,5 +1,6 @@
 ﻿@model List<ProdutoModel>
 
+<<<<<<< HEAD
 <div class="row">
     <div class="col-4">
         <h1>
@@ -13,6 +14,14 @@
     </div>
 
 </div>
+=======
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 
 <div class="row d-flex gap-4 justify-content-center">
     @foreach (var i in Model)
@@ -29,6 +38,7 @@
                     <li class="list-group-item">@i.Categoria</li>
                 </ul>
                 <div class="card-body">
+<<<<<<< HEAD
                     <div class="btn-group" role="group" aria-label="Basic example">
                         <div class="w-100 d-flex justify-content-center">
                             <a asp-action="Cadastrar" asp-route-id="@i.ProdutoID" class="card-link btn btn-secondary">Editar</a>
@@ -44,6 +54,18 @@
                             </form>
                         </div>
                     </div>
+=======
+                    <div class="row">
+                        <div class="form-check form-switch mb-3 w-auto mx-auto">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                            <label class="form-check-label" for="switchCheckDefault">Ativo</label>
+                        </div>
+                    </div>
+                    <div class="w-100 d-flex justify-content-center">
+                        <a href="#" class="card-link btn btn-secondary">Editar</a>
+                        <a href="#" class="card-link btn btn-danger">Deletar</a>
+                    </div>
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
                 </div>
             </div>
         </div>

@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Z1.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86627445271bb78d72d82e00632935361a8781c1")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6209b65fbbb6ebb0d7bbe1b21c2558a4fced5940")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a75ef444ee60723ba32211c552d5fc65dff3a636")]
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
 [assembly: System.Reflection.AssemblyProductAttribute("Z1.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Z1.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

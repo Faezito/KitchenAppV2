@@ -1,7 +1,4 @@
-﻿using GenerativeAI.Types;
-using KitchenApp.Libraries.Login;
-using KitchenApp.Libraries.Sessao;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Z1.Model;
 using Z2.Servicos;
@@ -12,6 +9,7 @@ namespace KitchenApp.Controllers
     public class ProdutoController : Controller
     {
         private readonly IProdutoServicos _seProduto;
+<<<<<<< HEAD
         private readonly Sessao _sessao;
         private readonly LoginUsuario _login;
         private readonly IIngredienteServicos _seIngrediente;
@@ -22,15 +20,19 @@ namespace KitchenApp.Controllers
             _sessao = sessao;
             _login = loginUsuario;
             _seIngrediente = seIngrediente;
+=======
+
+        public ProdutoController(IProdutoServicos seProduto)
+        {
+            _seProduto = seProduto;
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
         }
         public async Task<IActionResult> Index(int? ProdutoID, int UsuarioID)
         {
-            var usuario = _login.GetCliente();
-            UsuarioID = usuario.Id.Value;
-
-            List<ProdutoModel> lst = await _seProduto.Listar(ProdutoID, UsuarioID);
+            List<ProdutoModel> lst = await _seProduto.Listar(ProdutoID, null);
             return View(lst);
         }
+<<<<<<< HEAD
 
         [HttpGet]
         public async Task<IActionResult> Cadastrar(int? id)
@@ -120,5 +122,7 @@ namespace KitchenApp.Controllers
             await _seProduto.AtivarDesativar(model);
             return RedirectToAction(nameof(Index));
         }
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)
     }
 }

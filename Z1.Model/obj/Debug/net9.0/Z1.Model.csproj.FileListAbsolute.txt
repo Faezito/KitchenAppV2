@@ -33,6 +33,7 @@ C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Mod
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\refint\Z1.Model.dll
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Model.pdb
 C:\Users\Matheus Faé\source\repos\KitchenAppV2\Z1.Model\obj\Debug\net9.0\ref\Z1.Model.dll
+<<<<<<< HEAD
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\bin\Debug\net9.0\Z1.Model.deps.json
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\bin\Debug\net9.0\Z1.Model.dll
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\bin\Debug\net9.0\Z1.Model.pdb
@@ -47,3 +48,5 @@ C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\obj\Debug\net9.0\
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Model.pdb
 C:\Users\Matheus\source\repos\KitchenApp\KitchenAppV2\Z1.Model\obj\Debug\net9.0\ref\Z1.Model.dll
 C:\Users\matheus.fae\Documents\GitHub\KitchenAppV2\Z1.Model\obj\Debug\net9.0\Z1.Model.csproj.AssemblyReference.cache
+=======
+>>>>>>> parent of ac7b9c1 (Cadastro de produtos com ingredientes 0.01)

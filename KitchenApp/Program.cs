@@ -8,6 +8,7 @@ using Z3.DataAccess.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Env.Load();
 
 builder.Services.AddControllersWithViews();
 
@@ -24,7 +25,7 @@ builder.Services.AddScoped<IUsuarioDataAccess, UsuarioDataAccess>();
 builder.Services.AddScoped<IUsuarioServicos, UsuarioServicos>();
 builder.Services.AddScoped<IProdutoDataAccess, ProdutoDataAccess>();
 builder.Services.AddScoped<IProdutoServicos, ProdutoServicos>();
-builder.Services.AddScoped<IIngredienteServicos, IngredienteServicos>();
+//builder.Services.AddScoped<IIngredienteServicos, IngredienteServicos>();
 builder.Services.AddScoped<IIngredienteDataAccess, IngredienteDataAccess>();
 
 // Cookies
@@ -56,7 +57,6 @@ builder.Services.AddScoped<LoginUsuario>();
 
 var app = builder.Build();
 
-Env.Load();
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseSession();
